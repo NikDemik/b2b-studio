@@ -1,0 +1,131 @@
+.stages {
+    // margin-top: 20px;
+}
+
+.stages__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 54px;
+
+}
+.stages__titles {
+    display: flex;
+    justify-content: start;
+}
+
+.stages__title {
+    line-height: 83%;
+}
+
+.stages__text {
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 83%;
+}
+
+.stages__decs {
+    display: flex;
+    align-items: flex-end;
+    max-width: 762px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: right;
+    color: var(----text-color-gray);
+}
+
+.stages__content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.content__cart {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    border-radius: 40px;
+    padding: 38px 38px;
+
+    background-color: var(--accent);
+    z-index: 1;
+    position: relative;
+}
+
+.cart-bg-1::before {    
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/number/1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity : 0.4;
+    z-index: -1;
+}
+
+.cart-bg-2::before {    
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/number/2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity : 0.4;
+    z-index: -1;
+}
+
+.cart-bg-3::before {    
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/number/3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity : 0.4;
+    z-index: -1;
+}
+
+.cart-bg-4::before {    
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/number/4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity : 0.4;
+    z-index: -1;
+}
+
+.content__cart-title {
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80%;
+    color: var(--black);
+}
+.contenr__cart-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}

@@ -1,0 +1,28 @@
+:root {
+	--container-width: 1440px;
+	--container-padding: 40px;
+
+	--font-main: "AeonikProTRIAL-Regular", sans-serif;
+	--font-accent: "AeonikProTRIAL-Bold", sans-serif;
+	--font-titles: var(--font-accent);
+
+	--page-bg: #fff;
+	--text-title: #000;
+	--text-title-w: #fff;
+	--text: #000;
+	--text-w: #fff;
+	--accent-2: #51d0de;
+	--accent-1: #bf4aa8;
+	--text-accent: #d9d9d9;
+	--link-color: #0A1026; 
+
+
+    --laptop-size: 1440px;
+	--tablet-size: 1024px;
+	--mobile-size: 720px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}
