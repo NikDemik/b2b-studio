@@ -11,6 +11,9 @@ scroll();
 import mousemoveHero from './modules/mousemove-hero.js';
 mousemoveHero();
 
+import accordion from './modules/accordion.js';
+accordion();
+
 // import hoverOff from './modules/projects-hover.js';
 // hoverOff();
 
