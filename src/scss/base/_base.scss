@@ -26,6 +26,9 @@
 html {
 	scroll-behavior: smooth;
 	background-color: rgb(39, 39, 39);
+	-webkit-overflow-scrolling: auto;
+	overscroll-behavior-y: none;
+	// scroll-behavior: auto;
 }
 
 body {

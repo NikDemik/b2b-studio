@@ -3,7 +3,7 @@
     min-height: 660px;
     padding: 8rem 0;
     position: relative;
-    background-color: var(--accent-2);
+    // background-color: var(--accent-2);
     // background-color: transparent;
     background-image: url('../../../img/uslugi-bg.png');
     background-position: 88% 50%; /* x y */
@@ -40,6 +40,12 @@
     color: var(--text-w);
     cursor: pointer;
     transition: transform .5s ease-in-out;
+
+    &:hover {
+        transform: translateX(3rem);
+        box-shadow:  0 0 10px #bf4aa8;
+        transition: transform .5s ease-in-out;
+    }
 }
 
 .uslugi-menu__item:not(:last-child) {

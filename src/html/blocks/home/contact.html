@@ -1,0 +1,45 @@
+<section class="contact">
+    <div class="container-full">
+        <div class="contact-title">
+            <p class="title-2"></p>          
+        </div>
+        <form action="../../../php/sendmail.php" method="post" class="form__zapros">
+            <h2 class="title-2">Остались вопросы?</h2>
+            <div class="form__zapros-row">
+                <label for="name">
+                    Имя
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder=""
+                        required
+                    >
+                </label>
+                
+                <label for="email">
+                    E-mail
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder=""
+                        required
+                    >
+                </label>
+            </div>
+            
+            <label for="message" class="form__zapros-question">
+                Ваш вопрос
+                <input
+                    type="text"
+                    name="message"
+                    id="message"
+                    required
+                >
+            </label>
+            
+            <button type="submit">Связаться с нами</button>
+        </form>       
+    </div>
+</section>

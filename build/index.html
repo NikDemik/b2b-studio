@@ -185,31 +185,86 @@
 				</div>
 			</div>
 		</section>
+		<section class="projects">
+			<div class="container-full">
+				<div class="projects-title">
+					<p class="title-2">Проекты</p>
+				</div>
+				<div class="project-row">
+					<div class="project">
+						<picture>
+							<source srcset="./img/projects/razlit.webp 1x, ./img/projects/razlit@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/projects/razlit.png 1x, ./img/projects/razlit@2x.png 2x" type="image/png" />
+							<img src="./img/projects/razlit.png" alt="" class="project-img" />
+						</picture>
+						<h4 class="project-title">Сайт РВД</h4>
+					</div>
+					<div class="project">
+						<picture>
+							<source srcset="./img/projects/b2b-energo.webp 1x, ./img/projects/b2b-energo@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/projects/b2b-energo.png 1x, ./img/projects/b2b-energo@2x.png 2x" type="image/png" />
+							<img src="./img/projects/b2b-energo.png" alt="" class="project-img" />
+						</picture>
+						<h4 class="project-title">Сайт РВД</h4>
+					</div>
+					<div class="project">
+						<picture>
+							<source srcset="./img/projects/metantanke.webp 1x, ./img/projects/metantanke@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/projects/metantanke.png 1x, ./img/projects/metantanke@2x.png 2x" type="image/png" />
+							<img src="./img/projects/metantanke.png" alt="" class="project-img" />
+						</picture>
+						<h4 class="project-title">Сайт РВД</h4>
+					</div>
+					<div class="project">
+						<picture>
+							<source srcset="./img/projects/rvd-rukav.webp 1x, ./img/projects/rvd-rukav@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/projects/rvd-rukav.png 1x, ./img/projects/rvd-rukav@2x.png 2x" type="image/png" />
+							<img src="./img/projects/rvd-rukav.png" alt="" class="project-img" />
+						</picture>
+						<h4 class="project-title">Сайт РВД</h4>
+					</div>
+					<div class="project">
+						<picture>
+							<source srcset="./img/projects/trefy.webp 1x, ./img/projects/trefy@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/projects/trefy.png 1x, ./img/projects/trefy@2x.png 2x" type="image/png" />
+							<img src="./img/projects/trefy.png" alt="" class="project-img" />
+						</picture>
+						<h4 class="project-title">Сайт РВД</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact">
+			<div class="container-full">
+				<div class="contact-title">
+					<p class="title-2"></p>
+				</div>
+				<form action="../../../php/sendmail.php" method="post" class="form__zapros">
+					<h2 class="title-2">Остались вопросы?</h2>
+					<div class="form__zapros-row">
+						<label for="name">
+							Имя
+							<input type="text" name="name" id="name" placeholder="" required />
+						</label>
+
+						<label for="email">
+							E-mail
+							<input type="email" name="email" id="email" placeholder="" required />
+						</label>
+					</div>
+
+					<label for="message" class="form__zapros-question">
+						Ваш вопрос
+						<input type="text" name="message" id="message" required />
+					</label>
+
+					<button type="submit">Связаться с&#160;нами</button>
+				</form>
+			</div>
+		</section>
 		<footer class="footer" id="footer">
 			<div class="container">
 				<div class="footer__block">
-					<form action="mailto:9912832014@mail.ru" enctype="text/plain" class="form__zapros">
-						<h2 class="title-2">Остались вопросы?</h2>
-						<div class="form__zapros-row">
-							<label>
-								Имя
-								<input type="text" name="name" id="name" placeholder="" required />
-							</label>
-
-							<label>
-								E-mail
-								<input type="email" name="email" id="email" placeholder="" required />
-							</label>
-						</div>
-
-						<label class="form__zapros-question">
-							Ваш вопрос
-							<input type="text" name="text" id="text" required />
-						</label>
-
-						<button type="submit">Связаться с&#160;нами</button>
-					</form>
-
 					<div class="footer__info">
 						<div class="footer__contact">
 							<p class="contact__title title-2">Напишите нам</p>
